@@ -10,8 +10,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseHttpsRedirection(); //Redirect HTTP request to HTTPS for encryption
+app.UseStaticFiles(); //Allows to serve the static files from wwwroot folder directly, improving performance
 
 app.UseRouting();
 app.UseAuthorization();
