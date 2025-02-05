@@ -2,11 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Narrateo.Controllers
 {
-    public class BlogController : Controller
+    public class BlogsController : Controller
     {
         public ActionResult Index()
         {
-            return View();
+            return View("Blogs");
         }
 
     }
