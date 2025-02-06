@@ -9,7 +9,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
 app.MapControllerRoute(
     name: "firstRoute",
     pattern:"{controller=PostBlogs}/{action=Index}/{id?}"
