@@ -1,9 +1,7 @@
-using System;
-using Microsoft.AspNetCore.Identity;
 
 namespace Narrateo.Models;
 
-public class ApplicationRoles : IdentityRole
+public class ApplicationRoles
 {
     public string? Description {get; set;}
 }

@@ -1,10 +1,6 @@
-using System;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
-
 namespace Narrateo.Models;
 
-public class ApplicationUsers : IdentityUser
+public class ApplicationUsers
 {
     public string? FullName {get; set;}
     
