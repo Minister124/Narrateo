@@ -5,7 +5,7 @@ namespace Narrateo.Controllers
     public class Account : Controller
     {
         // GET: Account
-        public ActionResult Index()
+        public ActionResult Register()
         {
             return View();
         }

@@ -5,5 +5,5 @@ namespace Narrateo.Models;
 
 public class ApplicationRoles : IdentityRole
 {
-    public string Description {get; set;}
+    public string? Description {get; set;}
 }
