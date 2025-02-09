@@ -1,6 +1,4 @@
-using System;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.SignalR;
 
 namespace Narrateo.Models;
 
