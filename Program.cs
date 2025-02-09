@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Options;
 using Narrateo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
