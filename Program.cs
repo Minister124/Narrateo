@@ -15,15 +15,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.MapRazorPages();
+app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "firstRoute",
-    pattern:"{controller=PostBlogs}/{action=Index}/{id?}"
+    pattern:"{controller=Account}/{action=Register}/{id?}"
 );
 
 app.Run();
