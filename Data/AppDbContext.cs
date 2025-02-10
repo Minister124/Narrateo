@@ -28,7 +28,7 @@ public class AppDbContext : DbContext
     //      Middleware might look like
     //      string connection = builder.Services.GetConnectionString();
     //      builder.Services.AddDbContext<AppDbContext>(options =>
-    //      options.UseNpgsql(connection)));
+    //      options.UseNpgsql(connectionBuilder)));
     //      DbContext is just like the implemented one. just a little bit different.
     // }
 
