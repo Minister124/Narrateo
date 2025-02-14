@@ -4,8 +4,7 @@ namespace Narrateo.Controllers
 {
     public class Account : Controller
     {
-        // GET: Account
-        public ActionResult Login()
+        public IActionResult Login()
         {
             return View();
         }
