@@ -5,12 +5,12 @@ namespace Narrateo.Controllers
     [Route("[controller]/[action]")]
     public class Account : Controller
     {
-        public IActionResult Login()
+        public IActionResult LoginView()
         {
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult RegisterView()
         {
             return View();
         }

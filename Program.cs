@@ -25,7 +25,7 @@ app.MapControllers();
 
 app.MapControllerRoute(
     name: "firstRoute",
-    pattern:"{controller=Account}/{action=Login}/{id?}"
+    pattern:"{controller=Account}/{action=LoginView}/{id?}"
 );
 
 app.Run();
