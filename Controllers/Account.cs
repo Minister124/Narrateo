@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Narrateo.Controllers
 {
+    [Route("[controller]/[action]")]
     public class Account : Controller
     {
         public IActionResult Login()
@@ -9,5 +10,9 @@ namespace Narrateo.Controllers
             return View();
         }
 
+        public IActionResult Register()
+        {
+            return View();
+        }
     }
 }
