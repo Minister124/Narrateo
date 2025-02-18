@@ -1,5 +1,6 @@
 .vscode/
 bin
+log
 obj
 appsettings.json
 Migrations/
