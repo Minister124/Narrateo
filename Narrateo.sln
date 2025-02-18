@@ -1,22 +1,24 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narrateo", "Narrateo.csproj", "{673E9B47-603C-4F6A-85EF-77F4817013FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narrateo", "Narrateo.csproj", "{44B2B0B8-25B8-82F9-F038-CABCF71352F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B2B0B8-25B8-82F9-F038-CABCF71352F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B2B0B8-25B8-82F9-F038-CABCF71352F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B2B0B8-25B8-82F9-F038-CABCF71352F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B2B0B8-25B8-82F9-F038-CABCF71352F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{673E9B47-603C-4F6A-85EF-77F4817013FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{673E9B47-603C-4F6A-85EF-77F4817013FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{673E9B47-603C-4F6A-85EF-77F4817013FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{673E9B47-603C-4F6A-85EF-77F4817013FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF31253-0309-4AE3-B3F0-2DA9CC07E531}
 	EndGlobalSection
 EndGlobal
